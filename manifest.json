@@ -1,0 +1,9 @@
+{
+    "name": "Easy Markdown",
+    "description": "Preview markdown with ease.",
+    "version": "0.1",
+    "browser_action": {
+        "default_popup": "popup/index.html"
+    },
+    "manifest_version": 2
+}

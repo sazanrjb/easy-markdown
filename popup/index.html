@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="p-20">
+    <div>
+      <div><strong>EASY</strong>Markdown</div>
+    </div>
+    <div class="flex width-100p mt-10">
+      <div>
+        <textarea
+          placeholder="Write or paste markdown here"
+          cols="35"
+          rows="30"
+          id="description"
+        ></textarea>
+      </div>
+      <div class="width-100p p-10 text-color-black font-13">
+        <div id="preview"></div>
+      </div>
+    </div>
+    <div class="mt-5">
+      <button id="copy">Copy</button>
+      <span id="copiedMessage"class="green"></span>
+    </div>
+    <script src="../vendor/markdown.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
