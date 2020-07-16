@@ -3,8 +3,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="p-20">
-    <div>
-      <div><strong>EASY</strong>Markdown</div>
+    <div class="flex align-center">
+      <img src="../icons/icon_128.png" width="32px" />
+      <span class="font-16 ml-5 text-grey">Easy Markdown</span>
     </div>
     <div class="flex width-100p mt-10">
       <div>
@@ -15,13 +16,13 @@
           id="description"
         ></textarea>
       </div>
-      <div class="width-100p p-10 text-color-black font-13">
+      <div class="width-100p p-10 font-13">
         <div id="preview"></div>
       </div>
     </div>
     <div class="mt-5">
       <button id="copy">Copy</button>
-      <span id="copiedMessage"class="green"></span>
+      <span id="copiedMessage" class="green"></span>
     </div>
     <script src="../vendor/markdown.js"></script>
     <script src="popup.js"></script>
